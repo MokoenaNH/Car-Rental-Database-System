@@ -21,46 +21,30 @@ This project is a car rental database system designed to help manage rentals, cu
 
 **🗂 Database Tables**
 
-   **Table Name:**	                    Description
-    
-    
-   **Vehicle:**	                    Car details (ID, color, type, price, mileage)
-    
-    
-   **Address:**	                    Branch and customer addresses
-    
-    
-   **Branch:**	                    Rental locations and contact info
 
-    
-   **Employee:**	                    Staff details (name, role, branch)
-    
-    
-   **Customer:**	                  Customer info (name, contact, age)
-    
-    
-   **Rental_transaction:**	        Rental records (dates, costs, status)
-    
-    
-   **Vehicle_maintenance:**	        Car service history
-    
-    
-   **Banking_information:**	        Customer payment details
-
+    Table Name	Description
+    🚗 Vehicle	Car details (ID, color, type, price, mileage)
+    🏠 Address	Branch and customer addresses
+    🏢 Branch	Rental locations and contact info
+    👨‍💼 Employee	Staff details (name, role, branch)
+    👥 Customer	Customer info (name, contact, age)
+    📝 Rental_transaction	Rental records (dates, costs, status)
+    🔧 Vehicle_maintenance	Car service history
+    💳 Banking_information	Customer payment details
 
 
 
 **🔍 Cool Views (Predefined Queries)**
 
-  🚗 Popular_Vehicles – Most rented cars.
-  
-  ✅ Available_vehicles – Cars ready for rent.
-  
-  ⏰ Overdue_Rentals – Late returns.
-  
-  💰 Revenue_Summary – Daily earnings.
-  
-  👤 Customer_Rentals – Rental history per customer.
+    🚗 Popular_Vehicles – Most rented cars.
+    
+    ✅ Available_vehicles – Cars ready for rent.
+    
+    ⏰ Overdue_Rentals – Late returns.
+    
+    💰 Revenue_Summary – Daily earnings.
+    
+    👤 Customer_Rentals – Rental history per customer.
 
 
 **📝 Example Queries**
@@ -70,6 +54,7 @@ This project is a car rental database system designed to help manage rentals, cu
     sql
     
     SELECT * FROM Available_sedans WHERE VEHICLE_COLOUR = 'Red';
+    
     Show managers:
     
     sql
@@ -102,8 +87,8 @@ This project is a car rental database system designed to help manage rentals, cu
 
 **📌 Project Phases**
 
-Phase 1 – Planning & Research 📋
-
-Phase 2 – Database Design ✏️
-
-Phase 3 – Building & Testing 🛠
+    Phase 1 – Planning & Research 📋
+    
+    Phase 2 – Database Design ✏️
+    
+    Phase 3 – Building & Testing 🛠
