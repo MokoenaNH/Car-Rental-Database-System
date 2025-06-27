@@ -17,12 +17,19 @@ This project is a car rental database system designed to help manage rentals, cu
 Table Name	Description
 
 🚗 Vehicle	Car details (ID, color, type, price, mileage)
+
 🏠 Address	Branch and customer addresses
+
 🏢 Branch	Rental locations and contact info
+
 👨‍💼 Employee	Staff details (name, role, branch)
+
 👥 Customer	Customer info (name, contact, age)
+
 📝 Rental_transaction	Rental records (dates, costs, status)
+
 🔧 Vehicle_maintenance	Car service history
+
 💳 Banking_information	Customer payment details
 
 **🔍 Cool Views (Predefined Queries)**
@@ -48,7 +55,8 @@ Run SQL Script – Copy the table and data setup from the project files.
 
 Test Queries – Try the views or write your own!
 
-📝 Example Queries
+**📝 Example Queries**
+
 Find all available red sedans:
 sql
 SELECT * FROM Available_sedans WHERE VEHICLE_COLOUR = 'Red';
@@ -58,10 +66,12 @@ SELECT * FROM Search_Employees;
 Calculate total revenue:
 sql
 SELECT SUM(RENTAL_COST) AS "Total Money Made!" FROM Rental_transaction;
-👥 Contributors
+
+**👥 Contributors**
+
 Group 12 – North-West University
 
-Neo Mokoena (Project Leader)
+**Neo Mokoena (Project Leader)**
 
 Nentsianane M. (BI Analyst)
 
