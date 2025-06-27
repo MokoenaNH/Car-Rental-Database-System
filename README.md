@@ -62,19 +62,6 @@ This project is a car rental database system designed to help manage rentals, cu
   
   👤 Customer_Rentals – Rental history per customer.
 
-**🛠 Setup Guide**
-
-Create Database
-
-sql
-
-CREATE DATABASE CARRENTALDB;
-
-USE CARRENTALDB;
-
-Run SQL Script – Copy the table and data setup from the project files.
-
-Test Queries – Try the views or write your own!
 
 **📝 Example Queries**
 
