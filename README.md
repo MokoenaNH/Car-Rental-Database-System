@@ -28,9 +28,9 @@ This project is a car rental database system designed to help manage rentals, cu
     🏢 Branch	                    Rental locations and contact info
     👨‍💼 Employee	                    Staff details (name, role, branch)
     👥 Customer	                    Customer info (name, contact, age)
-    📝 Rental_transaction	        Rental records (dates, costs, status)
-    🔧 Vehicle_maintenance	        Car service history
-    💳 Banking_information	        Customer payment details
+    📝 Rental_transaction	            Rental records (dates, costs, status)
+    🔧 Vehicle_maintenance	            Car service history
+    💳 Banking_information	            Customer payment details
 
 
 
