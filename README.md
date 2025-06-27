@@ -8,9 +8,13 @@ This project is a car rental database system designed to help manage rentals, cu
 **✨ Key Features**
 
 ✔ Vehicle Management – Track car details, availability, and maintenance.
+
 ✔ Customer Records – Store customer info, rentals, and payments.
+
 ✔ Branch Operations – Manage different rental locations.
+
 ✔ Automated Calculations – Rental costs, late fees, and vehicle availability.
+
 ✔ Easy Search – Find cars, customers, and employees quickly.
 
 
