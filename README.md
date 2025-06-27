@@ -4,6 +4,7 @@
 
 This project is a car rental database system designed to help manage rentals, customers, employees, and branches. It’s perfect for learning how databases work in real-world businesses!
 
+
 **✨ Key Features**
 
 ✔ Vehicle Management – Track car details, availability, and maintenance.
@@ -12,33 +13,37 @@ This project is a car rental database system designed to help manage rentals, cu
 ✔ Automated Calculations – Rental costs, late fees, and vehicle availability.
 ✔ Easy Search – Find cars, customers, and employees quickly.
 
+
+
 **🗂 Database Tables**
 
-   **Table Name:**	Description
+   **Table Name:**	                    Description
     
     
-   **🚗 Vehicle:**	Car details (ID, color, type, price, mileage)
+   **🚗 Vehicle:**	                    Car details (ID, color, type, price, mileage)
     
     
-   **🏠 Address:**	Branch and customer addresses
+   **🏠 Address:**	                    Branch and customer addresses
     
     
-   **🏢 Branch** :	Rental locations and contact info
+   **🏢 Branch:**	                    Rental locations and contact info
 
     
-   **👨‍💼Employee**:	Staff details (name, role, branch)
+   **👨‍💼Employee:**	                    Staff details (name, role, branch)
     
     
-   **👥 Customer:**	 Customer info (name, contact, age)
+   **👥 Customer:**	                  Customer info (name, contact, age)
     
     
-   **📝 Rental_transaction:**	Rental records (dates, costs, status)
+   **📝 Rental_transaction:**	        Rental records (dates, costs, status)
     
     
-   **🔧 Vehicle_maintenance:**	Car service history
+   **🔧 Vehicle_maintenance:**	        Car service history
     
     
-   **💳 Banking_information:**	Customer payment details
+   **💳 Banking_information:**	        Customer payment details
+
+
 
 
 **🔍 Cool Views (Predefined Queries)**
