@@ -49,21 +49,15 @@ This project is a car rental database system designed to help manage rentals, cu
 
 **📝 Example Queries**
 
-    Find all available red sedans:
-    
-    sql
+Find all available red sedans:
     
     SELECT * FROM Available_sedans WHERE VEHICLE_COLOUR = 'Red';
     
-    Show managers:
-    
-    sql
+Show managers:
     
     SELECT * FROM Search_Employees;
     
-    Calculate total revenue:
-    
-    sql
+Calculate total revenue:
     
     SELECT SUM(RENTAL_COST) AS "Total Money Made!" FROM Rental_transaction;
 
